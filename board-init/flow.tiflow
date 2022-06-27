@@ -1,0 +1,319 @@
+{
+  "comments": [
+    {
+      "content": "系统上电",
+      "id": "YaxCzfnhR",
+      "position": {
+        "units": "slots",
+        "x": -14,
+        "y": -3
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 6
+      }
+    },
+    {
+      "content": "液晶屏复位",
+      "id": "MdDHMnPlV",
+      "position": {
+        "units": "slots",
+        "x": -5,
+        "y": -3
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 6
+      }
+    },
+    {
+      "content": "创建显示服务",
+      "id": "8HvSxlzQ0",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": -3
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 6
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "UIoqfBRBb",
+      "input": {
+        "nodeId": "WQ4ATdI2r",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "uP2wUREi1",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Yla0Yl8Id",
+      "input": {
+        "nodeId": "GDsI7OQZr",
+        "pinKey": "1_dhwPVNC"
+      },
+      "output": {
+        "nodeId": "25rq74Gqt",
+        "pinKey": "CU5xOIp0-B"
+      }
+    },
+    {
+      "id": "Pszay2zzQ",
+      "input": {
+        "nodeId": "Fzq0CooF8",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "GDsI7OQZr",
+        "pinKey": "ya7jVV2SK"
+      }
+    },
+    {
+      "id": "UmV-FmUmd",
+      "input": {
+        "nodeId": "Hj6Tx9_ng",
+        "pinKey": "rJIbGnCMq"
+      },
+      "output": {
+        "nodeId": "i1CthDTN_",
+        "pinKey": "ry3pcpqyX"
+      }
+    },
+    {
+      "id": "MmvMeMrmK",
+      "input": {
+        "nodeId": "25rq74Gqt",
+        "pinKey": "sDKbNDB0Nr"
+      },
+      "output": {
+        "nodeId": "K_7eD80mc",
+        "pinKey": "ry3pcpqyX"
+      }
+    },
+    {
+      "id": "JH3aETC2y",
+      "input": {
+        "nodeId": "GDsI7OQZr",
+        "pinKey": "GsLo359Oq"
+      },
+      "output": {
+        "nodeId": "K_7eD80mc",
+        "pinKey": "ry3pcpqyX"
+      }
+    },
+    {
+      "id": "O5_Fu5z97",
+      "input": {
+        "nodeId": "n31gfL6-s",
+        "pinKey": "MIuTkwDjG"
+      },
+      "output": {
+        "nodeId": "yIVpLLP_Q",
+        "pinKey": "GYw_5NX_e"
+      }
+    },
+    {
+      "id": "ZbwgXTZgN",
+      "input": {
+        "nodeId": "GDsI7OQZr",
+        "pinKey": "m9rKbLlir"
+      },
+      "output": {
+        "nodeId": "n31gfL6-s",
+        "pinKey": "9EWI3lEmZ"
+      }
+    },
+    {
+      "id": "w7MbXRpgm",
+      "input": {
+        "nodeId": "K_7eD80mc",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "Hj6Tx9_ng",
+        "pinKey": "Hyi-G30Gq"
+      }
+    },
+    {
+      "id": "TA53Ls98N",
+      "input": {
+        "nodeId": "rhF-A8KSs",
+        "pinKey": "rJIbGnCMq"
+      },
+      "output": {
+        "nodeId": "WQ4ATdI2r",
+        "pinKey": "ry3pcpqyX"
+      }
+    },
+    {
+      "id": "9GFbWxUMP",
+      "input": {
+        "nodeId": "i1CthDTN_",
+        "pinKey": "BygApTqym"
+      },
+      "output": {
+        "nodeId": "rhF-A8KSs",
+        "pinKey": "Hyi-G30Gq"
+      }
+    },
+    {
+      "id": "byORiDel0",
+      "input": {
+        "nodeId": "n31gfL6-s",
+        "pinKey": "Bd4WDyYn85"
+      },
+      "output": {
+        "nodeId": "rhF-A8KSs",
+        "pinKey": "Hyi-G30Gq"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "uP2wUREi1",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": -16,
+        "y": 3
+      },
+      "type": "ticos/flow-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "True",
+        "rJjXFA9JQ": "D3"
+      },
+      "id": "WQ4ATdI2r",
+      "position": {
+        "units": "slots",
+        "x": -13,
+        "y": 1
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "-rJDGFPuBe": "D34",
+        "521azWSG0I": "D33",
+        "E24Fg-iJ63": "D35",
+        "KQum3klYi": "D21",
+        "Uv8wB88gNl": "D35",
+        "bjKSppW0n": "D36"
+      },
+      "id": "25rq74Gqt",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "ticos/lvgl/espi-display-adapter"
+    },
+    {
+      "id": "GDsI7OQZr",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 1
+      },
+      "type": "ticos/lvgl/lvgl-display-service"
+    },
+    {
+      "id": "Fzq0CooF8",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 2
+      },
+      "type": "ticos/flow-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "BygApTqym": "Never",
+        "HJ6HsEngZ": "False",
+        "rJjXFA9JQ": "D21"
+      },
+      "id": "i1CthDTN_",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 1
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "HJ6HsEngZ": "True",
+        "rJjXFA9JQ": "D21"
+      },
+      "id": "K_7eD80mc",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 6
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "SkPlMhAM5": "10"
+      },
+      "id": "Hj6Tx9_ng",
+      "position": {
+        "units": "slots",
+        "x": -7,
+        "y": 7
+      },
+      "type": "ticos/core/delay-halt"
+    },
+    {
+      "boundLiterals": {
+        "_yJZzKJF8": "1",
+        "bQpYMhPhbi": "40",
+        "nSCynVDLe": "39"
+      },
+      "id": "yIVpLLP_Q",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 13
+      },
+      "type": "ticos/i2c/custom-i2c"
+    },
+    {
+      "boundLiterals": {
+        "4IBSt2uW0m": "D37",
+        "ntL1-r1FPf": "D38"
+      },
+      "id": "n31gfL6-s",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 13
+      },
+      "type": "ticos-dev/lvgl-input-adapters/tp-ft6636-lv"
+    },
+    {
+      "boundLiterals": {
+        "SkPlMhAM5": "100"
+      },
+      "id": "rhF-A8KSs",
+      "position": {
+        "units": "slots",
+        "x": -7,
+        "y": 1
+      },
+      "type": "ticos/core/delay-halt"
+    }
+  ]
+}

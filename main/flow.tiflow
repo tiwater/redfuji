@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "content": "Ticos kit 红富士开发板基础系统\n",
+      "id": "HyZlIT6Bf",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "size": {
+        "height": 3,
+        "units": "slots",
+        "width": 7
+      }
+    }
+  ],
+  "description": "Ticos kit 红富士开发板基础系统",
+  "links": [
+    {
+      "id": "xEUk_xWgE",
+      "input": {
+        "nodeId": "vxqAzF6CT",
+        "pinKey": "rNHSVfznu"
+      },
+      "output": {
+        "nodeId": "C_bIVOLNl",
+        "pinKey": "Fzq0CooF8"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "uP2wUREi1": "On Boot"
+      },
+      "id": "C_bIVOLNl",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 7
+      },
+      "type": "@/board-init"
+    },
+    {
+      "id": "vxqAzF6CT",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 7
+      },
+      "type": "@/demo-display"
+    }
+  ]
+}

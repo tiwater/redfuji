@@ -1,0 +1,9 @@
+{
+  "authors": [
+    "Ticos Team"
+  ],
+  "description": "Ticos kit 红富士开发板基础系统",
+  "license": "AGPL-3.0",
+  "name": "redfuji",
+  "version": "0.5.0"
+}
