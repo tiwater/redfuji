@@ -409,15 +409,6 @@
       "type": "ticos/gpio/digital-write"
     },
     {
-      "id": "toE6WLPhF",
-      "position": {
-        "units": "slots",
-        "x": 5,
-        "y": 9
-      },
-      "type": "ticos/event/event-bus"
-    },
-    {
       "boundLiterals": {
         "rJjXFA9JQ": "D11"
       },

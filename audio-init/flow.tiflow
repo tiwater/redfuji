@@ -1,0 +1,117 @@
+{
+  "links": [
+    {
+      "id": "AZY66QxFma",
+      "input": {
+        "nodeId": "g_kKGwAKa",
+        "pinKey": "1Cd10y1wA"
+      },
+      "output": {
+        "nodeId": "zlNubuc1FX",
+        "pinKey": "3oGbPIvVt"
+      }
+    },
+    {
+      "id": "FiAkCBWeY",
+      "input": {
+        "nodeId": "zlNubuc1FX",
+        "pinKey": "1Rikx3Ci3"
+      },
+      "output": {
+        "nodeId": "JpeEY0mW1",
+        "pinKey": "9YYU01dgh"
+      }
+    },
+    {
+      "id": "EQwZV2Ehs",
+      "input": {
+        "nodeId": "WsyruoAT9",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "g_kKGwAKa",
+        "pinKey": "SkNAXTOfq"
+      }
+    },
+    {
+      "id": "CCDo-9o7m",
+      "input": {
+        "nodeId": "1aYEk5LvP",
+        "pinKey": "Y32nO9lqF"
+      },
+      "output": {
+        "nodeId": "GSmiU09vg",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "EsdG3DCzE",
+      "input": {
+        "nodeId": "zlNubuc1FX",
+        "pinKey": "u2PbV9x6W"
+      },
+      "output": {
+        "nodeId": "1aYEk5LvP",
+        "pinKey": "jQSQeOywv"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "g_kKGwAKa",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "ticos/audio/create-audio-service"
+    },
+    {
+      "id": "zlNubuc1FX",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "ticos-dev/audio-adapters/tk-es8388-adapter"
+    },
+    {
+      "id": "JpeEY0mW1",
+      "position": {
+        "units": "slots",
+        "x": -6,
+        "y": 0
+      },
+      "type": "ticos/i2c/i2c-1"
+    },
+    {
+      "id": "GSmiU09vg",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": -9,
+        "y": 3
+      },
+      "type": "ticos/flow-nodes/input-pulse"
+    },
+    {
+      "id": "WsyruoAT9",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 1
+      },
+      "type": "ticos/flow-nodes/output-pulse"
+    },
+    {
+      "id": "1aYEk5LvP",
+      "position": {
+        "units": "slots",
+        "x": -6,
+        "y": 3
+      },
+      "type": "ticos/sdcard/sd-mount"
+    }
+  ]
+}

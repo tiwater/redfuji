@@ -18,38 +18,58 @@
   "description": "Ticos kit 红富士开发板基础系统",
   "links": [
     {
-      "id": "xEUk_xWgE",
+      "id": "KVQ_gogXi",
       "input": {
         "nodeId": "vxqAzF6CT",
         "pinKey": "rNHSVfznu"
       },
       "output": {
-        "nodeId": "C_bIVOLNl",
-        "pinKey": "Fzq0CooF8"
+        "nodeId": "9twaLVBxa",
+        "pinKey": "DRivxfMGT"
+      }
+    },
+    {
+      "id": "z53DLi7yy",
+      "input": {
+        "nodeId": "zgVc-S5md",
+        "pinKey": "co0mCPn8N"
+      },
+      "output": {
+        "nodeId": "9twaLVBxa",
+        "pinKey": "DRivxfMGT"
       }
     }
   ],
   "nodes": [
     {
-      "boundLiterals": {
-        "uP2wUREi1": "On Boot"
-      },
-      "id": "C_bIVOLNl",
-      "position": {
-        "units": "slots",
-        "x": 2,
-        "y": 7
-      },
-      "type": "@/board-init"
-    },
-    {
       "id": "vxqAzF6CT",
       "position": {
         "units": "slots",
-        "x": 8,
-        "y": 7
+        "x": 10,
+        "y": 6
       },
       "type": "@/demo-display"
+    },
+    {
+      "id": "zgVc-S5md",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 9
+      },
+      "type": "@/demo-audio"
+    },
+    {
+      "boundLiterals": {
+        "vuUGYh65K": "On Boot"
+      },
+      "id": "9twaLVBxa",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 7
+      },
+      "type": "@/board-init"
     }
   ]
 }

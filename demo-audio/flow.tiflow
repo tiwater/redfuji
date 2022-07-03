@@ -1,0 +1,143 @@
+{
+  "comments": [
+    {
+      "content": "设置初始化音量",
+      "id": "j--hxackd",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 15
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 6
+      }
+    }
+  ],
+  "description": "播放音乐示例，音乐所在位置由 FILE_PATH 指定。音乐应放在 TF 卡中。",
+  "links": [
+    {
+      "id": "9y0kqMFGtT",
+      "input": {
+        "nodeId": "e8Jn16kBHG",
+        "pinKey": "Ok9D1HLe2"
+      },
+      "output": {
+        "nodeId": "SxVLeWQ8i",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "TzVEFxkIJ",
+      "input": {
+        "nodeId": "e8Jn16kBHG",
+        "pinKey": "vWuGkXgki"
+      },
+      "output": {
+        "nodeId": "co0mCPn8N",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "dPMjl28VIW",
+      "input": {
+        "nodeId": "xkmX9GRY0",
+        "pinKey": "SygmcljMq"
+      },
+      "output": {
+        "nodeId": "gRPh0YUjU7",
+        "pinKey": "HyqbI70-7"
+      }
+    },
+    {
+      "id": "tHyPlQD6n",
+      "input": {
+        "nodeId": "gRPh0YUjU7",
+        "pinKey": "S1618X0bX"
+      },
+      "output": {
+        "nodeId": "z0-14Rem1",
+        "pinKey": "B1x2RV3eZ"
+      }
+    },
+    {
+      "id": "jjPXhqFUd",
+      "input": {
+        "nodeId": "gRPh0YUjU7",
+        "pinKey": "rJ5aSXCWm"
+      },
+      "output": {
+        "nodeId": "co0mCPn8N",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "\"/Learning/english/Bobby Shafto.aac\""
+      },
+      "id": "SxVLeWQ8i",
+      "label": "FILE_PATH",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 4
+      },
+      "type": "ticos/core/constant-string"
+    },
+    {
+      "id": "e8Jn16kBHG",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 4
+      },
+      "type": "ticos/media/media-player"
+    },
+    {
+      "id": "co0mCPn8N",
+      "label": "START",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 7
+      },
+      "type": "ticos/flow-nodes/input-pulse"
+    },
+    {
+      "id": "xkmX9GRY0",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 11
+      },
+      "type": "ticos/audio/audio-service"
+    },
+    {
+      "boundLiterals": {
+        "SyN0S7RZ7": "True"
+      },
+      "id": "gRPh0YUjU7",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 11
+      },
+      "type": "ticos/stream/pass-if"
+    },
+    {
+      "boundLiterals": {
+        "B1x2RV3eZ": "80"
+      },
+      "id": "z0-14Rem1",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 12
+      },
+      "type": "ticos/core/constant-number"
+    }
+  ]
+}
