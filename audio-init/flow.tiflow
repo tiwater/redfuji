@@ -34,9 +34,9 @@
       }
     },
     {
-      "id": "CCDo-9o7m",
+      "id": "dF5ZEXwMN",
       "input": {
-        "nodeId": "1aYEk5LvP",
+        "nodeId": "wst4NUsmh",
         "pinKey": "Y32nO9lqF"
       },
       "output": {
@@ -45,13 +45,13 @@
       }
     },
     {
-      "id": "EsdG3DCzE",
+      "id": "8_zAiLM8Y",
       "input": {
         "nodeId": "zlNubuc1FX",
         "pinKey": "u2PbV9x6W"
       },
       "output": {
-        "nodeId": "1aYEk5LvP",
+        "nodeId": "wst4NUsmh",
         "pinKey": "jQSQeOywv"
       }
     }
@@ -105,13 +105,13 @@
       "type": "ticos/flow-nodes/output-pulse"
     },
     {
-      "id": "1aYEk5LvP",
+      "id": "wst4NUsmh",
       "position": {
         "units": "slots",
         "x": -6,
         "y": 3
       },
-      "type": "ticos/sdcard/sd-mount"
+      "type": "@/sd-mount"
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    {
+      "id": "Y32nO9lqF",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 5
+      },
+      "type": "ticos/flow-nodes/input-pulse"
+    },
+    {
+      "description": "目前 Ticos Kit 无法上高频 SDMMC，在本地 sd-mount 中指定频率为 20MHz。修改硬件 bug 后改为默认 sd-mount 节点。",
+      "id": "rKQh-IboQ",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 5
+      },
+      "type": "ticos/flow-nodes/not-implemented-in-ticos"
+    },
+    {
+      "id": "jQSQeOywv",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 5
+      },
+      "type": "ticos/flow-nodes/output-pulse"
+    }
+  ]
+}
