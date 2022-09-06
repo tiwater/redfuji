@@ -29,9 +29,9 @@
       }
     },
     {
-      "id": "DL4iOOXxq",
+      "id": "5ARe1u7-m",
       "input": {
-        "nodeId": "zgVc-S5md",
+        "nodeId": "yFbnocH7X",
         "pinKey": "co0mCPn8N"
       },
       "output": {
@@ -51,15 +51,6 @@
       "type": "@/demo-display"
     },
     {
-      "id": "zgVc-S5md",
-      "position": {
-        "units": "slots",
-        "x": 10,
-        "y": 9
-      },
-      "type": "@/demo-audio"
-    },
-    {
       "boundLiterals": {
         "vuUGYh65K": "On Boot"
       },
@@ -70,6 +61,15 @@
         "y": 7
       },
       "type": "@/board-init"
+    },
+    {
+      "id": "yFbnocH7X",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 9
+      },
+      "type": "@/demo-audio"
     }
   ]
 }
