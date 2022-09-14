@@ -1,0 +1,232 @@
+{
+  "comments": [
+    {
+      "content": "系统上电",
+      "id": "G3cEtjIH1k",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -0.25
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 6
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "sBHYPVR9-g",
+      "input": {
+        "nodeId": "tEi5FOgovZ",
+        "pinKey": "rJIbGnCMq"
+      },
+      "output": {
+        "nodeId": "VsyEXHyGS",
+        "pinKey": "ry3pcpqyX"
+      }
+    },
+    {
+      "id": "4aKZ9DaDee",
+      "input": {
+        "nodeId": "HnDRmaWFW3",
+        "pinKey": "H1BWK7v67U"
+      },
+      "output": {
+        "nodeId": "xWJFZ0lGKI",
+        "pinKey": "H1wRGzm-U"
+      }
+    },
+    {
+      "id": "PinW3YRmm-",
+      "input": {
+        "nodeId": "HnDRmaWFW3",
+        "pinKey": "Hyzg3H_5U"
+      },
+      "output": {
+        "nodeId": "48lMLiHjZE",
+        "pinKey": "SkfR_9fvL"
+      }
+    },
+    {
+      "id": "tdAzw3Zr1u",
+      "input": {
+        "nodeId": "a9HuULexli",
+        "pinKey": "Bkh8A_Sv1-"
+      },
+      "output": {
+        "nodeId": "VZCfW1jF0j",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "ldshDBNt53",
+      "input": {
+        "nodeId": "3JopmsHG9Q",
+        "pinKey": "HkYKJ4vf5"
+      },
+      "output": {
+        "nodeId": "HnDRmaWFW3",
+        "pinKey": "ry-bFmDaQL"
+      }
+    },
+    {
+      "id": "j2gch1XuYp",
+      "input": {
+        "nodeId": "3JopmsHG9Q",
+        "pinKey": "HkSTQwnz5"
+      },
+      "output": {
+        "nodeId": "a9HuULexli",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "zl7slhkcqn",
+      "input": {
+        "nodeId": "K7xCdrZSvp",
+        "pinKey": "WYZkjuoGx"
+      },
+      "output": {
+        "nodeId": "Nyqq5WuGEV",
+        "pinKey": "W7dK2CpcQ"
+      }
+    },
+    {
+      "id": "UvKfACqzd",
+      "input": {
+        "nodeId": "Nyqq5WuGEV",
+        "pinKey": "Hk6O6P2Gq"
+      },
+      "output": {
+        "nodeId": "qlutAM9vU",
+        "pinKey": "Sk450OL-X"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "BygApTqym": "On Boot",
+        "HJ6HsEngZ": "True",
+        "rJjXFA9JQ": "D3"
+      },
+      "id": "VsyEXHyGS",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 3.75
+      },
+      "type": "ticos/gpio/digital-write"
+    },
+    {
+      "boundLiterals": {
+        "SkPlMhAM5": "100"
+      },
+      "id": "tEi5FOgovZ",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 3.75
+      },
+      "type": "ticos/core/delay-halt"
+    },
+    {
+      "boundLiterals": {
+        "SJCd0mhbU": "16",
+        "Skx0dA7nWI": "16"
+      },
+      "id": "xWJFZ0lGKI",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 14
+      },
+      "type": "ticos/graphics/canvas"
+    },
+    {
+      "boundLiterals": {
+        "SJ7WFXvamU": "16",
+        "SkWF7wa7L": "16"
+      },
+      "id": "HnDRmaWFW3",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 14
+      },
+      "type": "ticos/graphics/image"
+    },
+    {
+      "id": "48lMLiHjZE",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 17
+      },
+      "type": "ticos/graphics/heart-16x16-rgb"
+    },
+    {
+      "boundLiterals": {
+        "SkSuD6LMb": "On Boot",
+        "Skre8ROSv1-": "1"
+      },
+      "id": "VZCfW1jF0j",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 22
+      },
+      "type": "ticos/core/delay"
+    },
+    {
+      "id": "a9HuULexli",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 22
+      },
+      "type": "ticos/core/flip-flop"
+    },
+    {
+      "id": "3JopmsHG9Q",
+      "position": {
+        "units": "slots",
+        "x": 19,
+        "y": 14
+      },
+      "type": "ticos/display/display"
+    },
+    {
+      "id": "K7xCdrZSvp",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 9
+      },
+      "type": "ticos/display/create-xdisplay-service"
+    },
+    {
+      "id": "Nyqq5WuGEV",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 9
+      },
+      "type": "ticos-dev/display-adapters/tk-led5252-xrender"
+    },
+    {
+      "boundLiterals": {
+        "BytfJKIWX": "460800"
+      },
+      "id": "qlutAM9vU",
+      "position": {
+        "units": "slots",
+        "x": -1,
+        "y": 9
+      },
+      "type": "ticos/uart/uart-0"
+    }
+  ]
+}
